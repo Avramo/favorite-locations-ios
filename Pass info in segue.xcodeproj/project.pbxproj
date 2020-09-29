@@ -15,6 +15,7 @@
 		84210DDF23F05AAB00161291 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84210DDD23F05AAB00161291 /* LaunchScreen.storyboard */; };
 		84210DEA23F05AAC00161291 /* Favorite_LocationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84210DE923F05AAC00161291 /* Favorite_LocationsTests.swift */; };
 		84210DF523F05AAC00161291 /* Favorite_LocationsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84210DF423F05AAC00161291 /* Favorite_LocationsUITests.swift */; };
+		84210E0323F05BB300161291 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84210E0223F05BB300161291 /* SecondView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		84210DCF23F05AAA00161291 /* Favorite Locations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Favorite Locations.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84210DCF23F05AAA00161291 /* Pass info in segue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pass info in segue.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84210DD223F05AAA00161291 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84210DD423F05AAA00161291 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		84210DD623F05AAA00161291 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,12 +44,13 @@
 		84210DDB23F05AAB00161291 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84210DDE23F05AAB00161291 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84210DE023F05AAB00161291 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		84210DE523F05AAC00161291 /* Favorite LocationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Favorite LocationsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84210DE523F05AAC00161291 /* Pass info in segueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pass info in segueTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84210DE923F05AAC00161291 /* Favorite_LocationsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorite_LocationsTests.swift; sourceTree = "<group>"; };
 		84210DEB23F05AAC00161291 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		84210DF023F05AAC00161291 /* Favorite LocationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Favorite LocationsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84210DF023F05AAC00161291 /* Pass info in segueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pass info in segueUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84210DF423F05AAC00161291 /* Favorite_LocationsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorite_LocationsUITests.swift; sourceTree = "<group>"; };
 		84210DF623F05AAC00161291 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84210E0223F05BB300161291 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,9 +91,9 @@
 		84210DD023F05AAA00161291 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				84210DCF23F05AAA00161291 /* Favorite Locations.app */,
-				84210DE523F05AAC00161291 /* Favorite LocationsTests.xctest */,
-				84210DF023F05AAC00161291 /* Favorite LocationsUITests.xctest */,
+				84210DCF23F05AAA00161291 /* Pass info in segue.app */,
+				84210DE523F05AAC00161291 /* Pass info in segueTests.xctest */,
+				84210DF023F05AAC00161291 /* Pass info in segueUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -106,6 +108,7 @@
 				84210DDB23F05AAB00161291 /* Assets.xcassets */,
 				84210DDD23F05AAB00161291 /* LaunchScreen.storyboard */,
 				84210DE023F05AAB00161291 /* Info.plist */,
+				84210E0223F05BB300161291 /* SecondView.swift */,
 			);
 			path = "Favorite Locations";
 			sourceTree = "<group>";
@@ -131,9 +134,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		84210DCE23F05AAA00161291 /* Favorite Locations */ = {
+		84210DCE23F05AAA00161291 /* Pass info in segue */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84210DF923F05AAC00161291 /* Build configuration list for PBXNativeTarget "Favorite Locations" */;
+			buildConfigurationList = 84210DF923F05AAC00161291 /* Build configuration list for PBXNativeTarget "Pass info in segue" */;
 			buildPhases = (
 				84210DCB23F05AAA00161291 /* Sources */,
 				84210DCC23F05AAA00161291 /* Frameworks */,
@@ -143,14 +146,14 @@
 			);
 			dependencies = (
 			);
-			name = "Favorite Locations";
+			name = "Pass info in segue";
 			productName = "Favorite Locations";
-			productReference = 84210DCF23F05AAA00161291 /* Favorite Locations.app */;
+			productReference = 84210DCF23F05AAA00161291 /* Pass info in segue.app */;
 			productType = "com.apple.product-type.application";
 		};
-		84210DE423F05AAC00161291 /* Favorite LocationsTests */ = {
+		84210DE423F05AAC00161291 /* Pass info in segueTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84210DFC23F05AAC00161291 /* Build configuration list for PBXNativeTarget "Favorite LocationsTests" */;
+			buildConfigurationList = 84210DFC23F05AAC00161291 /* Build configuration list for PBXNativeTarget "Pass info in segueTests" */;
 			buildPhases = (
 				84210DE123F05AAC00161291 /* Sources */,
 				84210DE223F05AAC00161291 /* Frameworks */,
@@ -161,14 +164,14 @@
 			dependencies = (
 				84210DE723F05AAC00161291 /* PBXTargetDependency */,
 			);
-			name = "Favorite LocationsTests";
+			name = "Pass info in segueTests";
 			productName = "Favorite LocationsTests";
-			productReference = 84210DE523F05AAC00161291 /* Favorite LocationsTests.xctest */;
+			productReference = 84210DE523F05AAC00161291 /* Pass info in segueTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		84210DEF23F05AAC00161291 /* Favorite LocationsUITests */ = {
+		84210DEF23F05AAC00161291 /* Pass info in segueUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84210DFF23F05AAC00161291 /* Build configuration list for PBXNativeTarget "Favorite LocationsUITests" */;
+			buildConfigurationList = 84210DFF23F05AAC00161291 /* Build configuration list for PBXNativeTarget "Pass info in segueUITests" */;
 			buildPhases = (
 				84210DEC23F05AAC00161291 /* Sources */,
 				84210DED23F05AAC00161291 /* Frameworks */,
@@ -179,9 +182,9 @@
 			dependencies = (
 				84210DF223F05AAC00161291 /* PBXTargetDependency */,
 			);
-			name = "Favorite LocationsUITests";
+			name = "Pass info in segueUITests";
 			productName = "Favorite LocationsUITests";
-			productReference = 84210DF023F05AAC00161291 /* Favorite LocationsUITests.xctest */;
+			productReference = 84210DF023F05AAC00161291 /* Pass info in segueUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +210,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 84210DCA23F05AAA00161291 /* Build configuration list for PBXProject "Favorite Locations" */;
+			buildConfigurationList = 84210DCA23F05AAA00161291 /* Build configuration list for PBXProject "Pass info in segue" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -220,9 +223,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				84210DCE23F05AAA00161291 /* Favorite Locations */,
-				84210DE423F05AAC00161291 /* Favorite LocationsTests */,
-				84210DEF23F05AAC00161291 /* Favorite LocationsUITests */,
+				84210DCE23F05AAA00161291 /* Pass info in segue */,
+				84210DE423F05AAC00161291 /* Pass info in segueTests */,
+				84210DEF23F05AAC00161291 /* Pass info in segueUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -261,6 +264,7 @@
 			files = (
 				84210DD723F05AAA00161291 /* ViewController.swift in Sources */,
 				84210DD323F05AAA00161291 /* AppDelegate.swift in Sources */,
+				84210E0323F05BB300161291 /* SecondView.swift in Sources */,
 				84210DD523F05AAA00161291 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,12 +290,12 @@
 /* Begin PBXTargetDependency section */
 		84210DE723F05AAC00161291 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 84210DCE23F05AAA00161291 /* Favorite Locations */;
+			target = 84210DCE23F05AAA00161291 /* Pass info in segue */;
 			targetProxy = 84210DE623F05AAC00161291 /* PBXContainerItemProxy */;
 		};
 		84210DF223F05AAC00161291 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 84210DCE23F05AAA00161291 /* Favorite Locations */;
+			target = 84210DCE23F05AAA00161291 /* Pass info in segue */;
 			targetProxy = 84210DF123F05AAC00161291 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -440,8 +444,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.amkirsch.Favorite-Locations";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amkirsch.Pass-info-in-segue";
+				PRODUCT_NAME = "Pass info in segue";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -457,8 +461,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.amkirsch.Favorite-Locations";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amkirsch.Pass-info-in-segue";
+				PRODUCT_NAME = "Pass info in segue";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -481,7 +485,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Favorite Locations.app/Favorite Locations";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pass info in segue.app/Pass info in segue";
 			};
 			name = Debug;
 		};
@@ -502,7 +506,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Favorite Locations.app/Favorite Locations";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pass info in segue.app/Pass info in segue";
 			};
 			name = Release;
 		};
@@ -547,7 +551,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		84210DCA23F05AAA00161291 /* Build configuration list for PBXProject "Favorite Locations" */ = {
+		84210DCA23F05AAA00161291 /* Build configuration list for PBXProject "Pass info in segue" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				84210DF723F05AAC00161291 /* Debug */,
@@ -556,7 +560,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		84210DF923F05AAC00161291 /* Build configuration list for PBXNativeTarget "Favorite Locations" */ = {
+		84210DF923F05AAC00161291 /* Build configuration list for PBXNativeTarget "Pass info in segue" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				84210DFA23F05AAC00161291 /* Debug */,
@@ -565,7 +569,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		84210DFC23F05AAC00161291 /* Build configuration list for PBXNativeTarget "Favorite LocationsTests" */ = {
+		84210DFC23F05AAC00161291 /* Build configuration list for PBXNativeTarget "Pass info in segueTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				84210DFD23F05AAC00161291 /* Debug */,
@@ -574,7 +578,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		84210DFF23F05AAC00161291 /* Build configuration list for PBXNativeTarget "Favorite LocationsUITests" */ = {
+		84210DFF23F05AAC00161291 /* Build configuration list for PBXNativeTarget "Pass info in segueUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				84210E0023F05AAC00161291 /* Debug */,

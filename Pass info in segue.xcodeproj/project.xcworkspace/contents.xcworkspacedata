@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Favorite Locations.xcodeproj">
+      location = "self:/Users/admin/Desktop/AMKIRSCH iOS/Favorite Locations/Pass info in segue.xcodeproj">
    </FileRef>
 </Workspace>
